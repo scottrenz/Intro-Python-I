@@ -44,5 +44,5 @@ waypoints[0]={"lat": 43,"lon": -130,"name": "not a real place"}
 # YOUR CODE HERE
 for d in waypoints:
     for k, v in d.items():
-        print(k,": ", v)
+        print(k+": ", v)
     
