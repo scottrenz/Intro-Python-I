@@ -21,6 +21,6 @@ print('{}'.format(round(y,2)) )
 print('{}'.format(z))
 
 # Finally, print the same thing using an f-string
-print(f""+str(x))
-print(f""+str(round(y,2)) )
-print(f""+z)
+print(f"{x}")
+print(f"{round(y,2)}" )
+print(f"{z}")
