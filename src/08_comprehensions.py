@@ -11,13 +11,14 @@ for more info regarding list comprehensions.
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
 y = []
-
+[y.append(v) for v in range(6) if v > 0]
 print (y)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
 y = []
+[y.append(v**3) for v in range(11) if v <10]
 
 print(y)
 
@@ -27,6 +28,7 @@ print(y)
 a = ["foo", "bar", "baz"]
 
 y = []
+[y.append(v.upper()) for v in a if True]
 
 print(y)
 
@@ -37,5 +39,6 @@ x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
 y = []
+[y.append(int(v)) for v in x if int(v)/2 == round(int(v)/2)]
 
 print(y)

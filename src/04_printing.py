@@ -17,10 +17,10 @@ print('%s' % z)
 
 # Use the 'format' string method to print the same thing
 print('{}'.format(x) )
-print('{}'.format(round(y,2)) )
+print('{0:.2f}'.format(y))
 print('{}'.format(z))
 
 # Finally, print the same thing using an f-string
 print(f"{x}")
-print(f"{round(y,2)}" )
+print(f"{y:.2f}" )
 print(f"{z}")
