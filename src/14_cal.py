@@ -22,3 +22,19 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+s = sys.argv
+c = calendar.TextCalendar(calendar.SUNDAY)
+m = datetime.now().month
+y = datetime.now().year
+l=len(s)
+if l == 3:
+  y = s[2]
+if l > 1:
+  m = s[1]
+try:
+    str = c.formatmonth(int(y), int(m))
+except:
+  f = open('instruct.txt','r')
+  str = f.read()
+print(str)

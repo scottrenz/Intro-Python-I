@@ -1,0 +1,13 @@
+Call program in the format:
+  14_cal.py month year
+month and year are optional
+month is the month number between 1 and 12
+year is the 4 digit year number
+ - If the user doesn't specify any input, program
+   prints the calendar for the current month.
+ - If the user specifies one argument,
+  renders the calendar for that month of the current year.
+ - If the user specifies two arguments,
+   renders the calendar for that
+   month and year.
+   
