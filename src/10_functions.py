@@ -2,8 +2,7 @@
 
 # YOUR CODE HERE
 def is_even(n):
-    if int(n)/2 == int(int(n)/2):
-        return True
+    return int(n)/2 == int(int(n)/2)
 # Read a number from the keyboard
 num = input("Enter a number: ")
 num = int(num)
